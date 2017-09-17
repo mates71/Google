@@ -11,7 +11,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="./src/test/resources/features",
 	
-		glue="stepdefination")
+		glue="stepdefination",
+		tags="@Regression"
+		)
 
 
 public class CukesRunner {
