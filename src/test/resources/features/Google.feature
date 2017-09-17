@@ -1,3 +1,4 @@
+@Regression
 Feature: As a User , I want to use google translate
 		 so that I can translate a text to a different language
 
